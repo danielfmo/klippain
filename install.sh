@@ -17,7 +17,7 @@ GIT_REPO_URL="https://github.com/danielfmo/klipper-config.git"
 # Where to clone Frix-x repository config files (read-only and keep untouched)
 GIT_REPO_PATH="${HOME}/${USERNAME}_config"
 # Path used to store backups when updating (backups are automatically dated when saved inside)
-BACKUP_PATH="${HOME}/${USERNAME}_config_backups"
+BACKUP_PATH="${HOME}/printer_data/backup"
 
 
 set -eu
@@ -109,7 +109,7 @@ function restart_klipper {
 }
 
 
-BACKUP_DIR="${BACKUP_PATH}/config_$(date +'%Y%m%d%H%M%S')"
+BACKUP_DIR="${BACKUP_PATH}/klipper_$(date +'%Y%m%d%H%M%S')"
 
 # Run steps
 preflight_checks
