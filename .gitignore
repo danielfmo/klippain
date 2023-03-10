@@ -5,3 +5,9 @@
 /*.conf
 /.VERSION
 /*.bkp
+
+adxl_results/*/*.csv
+adxl_results/*/*.png
+adxl_results/*/*.tar*
+
+probe_accuracy_tests/*.png
