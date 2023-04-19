@@ -19,7 +19,7 @@ USER_CONFIG_PATH="${HOME}/printer_data/config"
 # Where to clone Frix-x repository config files (read-only and keep untouched)
 FRIX_CONFIG_PATH="${HOME}/klippain_config"
 # Path used to store backups when updating (backups are automatically dated when saved inside)
-BACKUP_PATH="${HOME}/klippain_config_backups"
+BACKUP_PATH="${HOME}/printer_data/backup/"
 
 
 set -eu
